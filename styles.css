@@ -1,0 +1,36 @@
+body {
+  background-image: url(numbers_image.jpg);
+}
+div {
+  background-color: floralwhite;
+}
+form {
+  height: 250px;
+  text-align: center;
+  border: 2px solid #ddd;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  padding: 2px;
+  margin: 2px;
+}
+h2 {
+  color: darkslategrey;
+}
+input {
+  width: 225px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+}
+button {
+  border: 1px solid #ddd;
+  width: 100px;
+  height: 28px;
+  background: #30333a;
+  color: white;
+  cursor: pointer;
+}
