@@ -93,13 +93,6 @@ function numToWord(num) {
       else if (i === 3) result += handleThreeDigits(numArray[i]);
     }
   }
-  //for special occasion 1100-1999
-  if (numString.length === 4 && 20 > +(numString[0] + numString[1]) > 10)
-    return (
-      handleThreeDigits(+(numString[0] + numString[1])) +
-      " hundred and " +
-      handleThreeDigits(+(numString[2] + numString[3]))
-    );
 
   return result;
 }
